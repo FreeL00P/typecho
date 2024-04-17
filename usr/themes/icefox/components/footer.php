@@ -5,16 +5,6 @@ if (!defined('__TYPECHO_ROOT_DIR__'))
 
 ?>
 
-<div class="fixed left-10 bottom-10 text-gray-300 text-[12px] side-area">
-    <a href="https://xiaopanglian.com" class="cursor-pointer text-gray-300" target="_blank">Icefox Theme 原作者</a> .
-    <a href="https://blog.qixing1217.top/article/8879698e-363b-407a-9ec4-72f713c4e0bd" class="cursor-pointer text-gray-600" target="_blank">部署教程</a>
-    <?php
-    $beian = $this->options->beian;
-    if (isset($beian)) {
-        echo '<a href="https://beian.miit.gov.cn/" class="cursor-pointer text-gray-300" target="_blank">' . $beian . '</a>';
-    }
-    ?>
-</div>
 <div class="fixed right-10 bottom-10 side-area">
     <div class="w-[48px] h-[48px] cursor-pointer rounded-3xl bg-[#E8E9EC] flex justify-center items-center mb-2">
         <svg t="1706667782532" class="icon cursor-pointer" viewBox="0 0 1024 1024" version="1.1"
